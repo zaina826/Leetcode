@@ -11,3 +11,6 @@ class Solution(object):
                 max_area= max(max_area, height[right]*(right-left))
                 right-=1
         return(max_area)
+solution = Solution()
+output = solution.maxArea([1,8,6,2,5,4,8,3,7])
+print(output)
